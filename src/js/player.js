@@ -2728,7 +2728,8 @@ let navigator = window.navigator;
  */
 Player.prototype.options_ = {
   // Default order of fallback technology
-  techOrder: ['html5','flash'],
+  //techOrder: ['html5','flash'],
+  techOrder: ['html5'],
   // techOrder: ['flash','html5'],
 
   html5: {},
